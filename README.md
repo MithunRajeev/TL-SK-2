@@ -12,6 +12,7 @@ This report investigates how boundary conditions influence the propagation of TE
 ## 2. Basic Theory of Parallel Plate Waveguides
 
 ## 2.1 Geometry and Assumptions
+
 ![image](https://github.com/user-attachments/assets/13e112c3-54db-43de-a573-d501fb1c0f0d)
 
 The parallel plate waveguide consists of two infinitely large, perfectly conducting plates separated by a distance 'd' along the y-axis. The plates are parallel to the x-z plane, and electromagnetic waves are assumed to propagate along the z-direction. The waveguide supports time-harmonic electromagnetic fields, characterized by an angular frequency $\omega$. Due to the ideal conductor assumption, the tangential electric field at the surfaces of the plates must be zero.
@@ -27,6 +28,7 @@ In such a configuration, three primary types of wave modes can theoretically exi
 ## 3. Derivation of Field Equations
 
 ## 3.1 Maxwell's Equations in Source-Free Regions
+
 ![image](https://github.com/user-attachments/assets/9c55f738-f7b0-47fb-9463-b47635209ef4)
 
 The wave equations are derived from Maxwell's curl equations under source-free, time-harmonic conditions:
@@ -52,6 +54,7 @@ $f_{c,n} = \frac{n c}{2d}, \quad n = 1, 2, 3, \ldots$
 
 ## 4.1 Perfect Electric Conductor (PEC) Conditions
 The electromagnetic fields must conform to specific conditions at the conductor surfaces:
+
 ![image](https://github.com/user-attachments/assets/21fac5f7-8bb3-4735-a660-b5d54159953d)
 
 * The **tangential component** of the electric field must be zero at the PEC boundaries:
@@ -59,6 +62,7 @@ The electromagnetic fields must conform to specific conditions at the conductor 
 * The **normal component** of the magnetic field must also vanish at the boundary, ensuring no flux penetration.
 
 ## 4.2 Impacts on Field Distribution
+
 ![image](https://github.com/user-attachments/assets/92978c60-ae81-4397-88cb-8301688e793c)
 
 These boundary conditions lead to quantization of the permissible field configurations inside the waveguide. The y-dependent variations of $E_z$ or $H_z$ become sinusoidal, and the mode number $n$ denotes the number of half-wavelengths that fit between the plates. Higher order modes exhibit more complex field distributions, with increased numbers of peaks and nodes across the y-axis.
@@ -79,6 +83,7 @@ $$
 This implies that the power carried is directly proportional to the square of the magnetic field amplitude and inversely proportional to $\omega\mu$. Near cutoff frequencies, $\beta$ becomes small, significantly reducing the power carried by the mode.
 
 ## 6. Limitations of Parallel Plate Waveguides
+
 ![image](https://github.com/user-attachments/assets/4d5aeff0-a84e-4f7d-a640-fc09b51f14c5)
 
 * **Infinite Width**: The assumption of infinite plate width is unrealistic in physical systems and ignores lateral effects.
@@ -88,6 +93,7 @@ This implies that the power carried is directly proportional to the square of th
 ## 7. Graphical Interpretation
 
 ## 7.1 Mode Shapes
+
 ![image](https://github.com/user-attachments/assets/e0c91479-a7d0-4546-8a9d-42873c3c5267)
 
 * **TE0 Mode**: Uniform or constant distribution of $H_z$ along the y-axis, typically not supported in standard waveguides due to boundary conditions.
