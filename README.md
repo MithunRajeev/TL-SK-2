@@ -79,6 +79,7 @@ $$
 This implies that the power carried is directly proportional to the square of the magnetic field amplitude and inversely proportional to $\omega\mu$. Near cutoff frequencies, $\beta$ becomes small, significantly reducing the power carried by the mode.
 
 ## 6. Limitations of Parallel Plate Waveguides
+![image](https://github.com/user-attachments/assets/4d5aeff0-a84e-4f7d-a640-fc09b51f14c5)
 
 * **Infinite Width**: The assumption of infinite plate width is unrealistic in physical systems and ignores lateral effects.
 * **No Lateral Confinement**: In practice, energy can diffract out of the sides, making the waveguide inefficient.
